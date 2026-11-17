@@ -1,6 +1,6 @@
 {
   "EnvironmentName": "PROD",
-  "QrsHost": "qliksense.sirket.local",
+  "QrsHost": "qliksense.company.local",
   "QrsPort": 4242,
   "Auth": {
     "Mode": "CertStore",
@@ -26,8 +26,8 @@
   "TaskNameInclude": "",
   "TaskNameExclude": "",
 
-  "QmcBaseUrl": "https://qliksense.sirket.local/qmc",
-  "HubBaseUrl": "https://qliksense.sirket.local",
+  "QmcBaseUrl": "https://qliksense.company.local/qmc",
+  "HubBaseUrl": "https://qliksense.company.local",
 
   "StateFile": "state.json",
   "LogFile": "logs\\monitor.log"
