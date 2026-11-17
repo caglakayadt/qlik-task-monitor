@@ -1,0 +1,8 @@
+# Sunucuya özel / gizli dosyalar — repoya girmemeli
+config.json
+state.json
+state.json.tmp
+logs/
+*.pfx
+*.log
+.DS_Store

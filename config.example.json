@@ -1,0 +1,34 @@
+{
+  "EnvironmentName": "PROD",
+  "QrsHost": "qliksense.sirket.local",
+  "QrsPort": 4242,
+  "Auth": {
+    "Mode": "CertStore",
+    "CertStoreLocation": "CurrentUser",
+    "CertSubject": "CN=QlikClient",
+    "PfxPath": "C:\\QlikTaskMonitor\\certs\\client.pfx",
+    "PfxPassword": "",
+    "UserDirectory": "INTERNAL",
+    "UserId": "sa_repository"
+  },
+  "SkipServerCertValidation": true,
+
+  "TeamsWebhookUrl": "https://...buraya Teams Workflow webhook URL'si...",
+
+  "PollIntervalSeconds": 60,
+  "FailStatuses": [6, 8, 11],
+  "NotifyOnRecovery": true,
+  "AlertExistingFailuresOnStart": false,
+  "ConnectionFailureThreshold": 3,
+  "MaxCardsPerCycle": 5,
+
+  "IncludeExternalProgramTasks": true,
+  "TaskNameInclude": "",
+  "TaskNameExclude": "",
+
+  "QmcBaseUrl": "https://qliksense.sirket.local/qmc",
+  "HubBaseUrl": "https://qliksense.sirket.local",
+
+  "StateFile": "state.json",
+  "LogFile": "logs\\monitor.log"
+}
